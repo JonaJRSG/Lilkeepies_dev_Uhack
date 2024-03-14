@@ -12,7 +12,6 @@ const Home: NextPage = () => {
   const [addressAccount, setAddresAccount] = React.useState<any>(null);
   const [contract, setContract] = React.useState<any>(null);
   const [child, setChild] = React.useState<any[]>([]);
-  const [loading, setLoading] = useState<boolean>(false);
 
   // React useEffect
 
